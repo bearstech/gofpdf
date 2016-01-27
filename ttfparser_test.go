@@ -18,7 +18,7 @@ package gofpdf_test
 
 import (
 	"bytes"
-	"code.google.com/p/gofpdf"
+	"github.com/MonAlbumPhoto/gofpdf"
 	"fmt"
 	// "testing"
 )

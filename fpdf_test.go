@@ -18,7 +18,7 @@ package gofpdf_test
 
 import (
 	"bufio"
-	"code.google.com/p/gofpdf"
+	"github.com/MonAlbumPhoto/gofpdf"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -1123,7 +1123,7 @@ func ExampleFpdf_tutorial21() {
 			pdf.CellFormat(170, 257, rec.txt, borderStr, 0, rec.align, false, 0, linkStr)
 			borderStr = ""
 		}
-		linkStr = "https://code.google.com/p/gofpdf/"
+		linkStr = "https://github.com/MonAlbumPhoto/gofpdf/"
 	}
 	pdf.OutputAndClose(docWriter(pdf, 21))
 	// Output:

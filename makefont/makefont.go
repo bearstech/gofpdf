@@ -1,7 +1,7 @@
 package main
 
 import (
-	"code.google.com/p/gofpdf"
+	"github.com/MonAlbumPhoto/gofpdf"
 	"flag"
 	"fmt"
 	"os"
